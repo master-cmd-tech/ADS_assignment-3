@@ -2,6 +2,7 @@ package anagram;
 
 public class AnagramChecker {
 
+
     public static String checkAnagramUsingSorting(String firstText, String secondText) {
         if (firstText.length() != secondText.length()) {
             return "NO";

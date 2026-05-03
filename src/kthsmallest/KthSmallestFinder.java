@@ -2,6 +2,7 @@ package kthsmallest;
 
 public class KthSmallestFinder {
 
+
     public static int findKthSmallestElement(int[] numbers, int kthPosition) {
         mergeSort(numbers, 0, numbers.length - 1);
         return numbers[kthPosition - 1];

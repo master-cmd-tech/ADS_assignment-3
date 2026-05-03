@@ -2,6 +2,7 @@ package median;
 
 public class MedianCalculator {
 
+
     public static int findMedianValue(int[] numbers) {
         mergeSort(numbers, 0, numbers.length - 1);
         return numbers[numbers.length / 2];

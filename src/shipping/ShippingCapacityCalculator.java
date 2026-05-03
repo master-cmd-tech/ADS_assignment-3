@@ -2,6 +2,7 @@ package shipping;
 
 public class ShippingCapacityCalculator {
 
+
     public static int calculateMinimumCapacity(int[] weights, int days) {
         int left = findMax(weights);
         int right = findSum(weights);

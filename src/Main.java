@@ -30,6 +30,5 @@ public class Main {
         for (int i = 0; i < weightCount; i++) weights[i] = input.nextInt();
         int days = input.nextInt();
         System.out.println(ShippingCapacityCalculator.calculateMinimumCapacity(weights, days));
-
     }
 }
